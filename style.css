@@ -36,7 +36,6 @@ h1 {
 }
 
 .sideBarContainer {
-  text-align: center;
 }
 .sideBar {
   margin-left: 220px;
@@ -128,6 +127,7 @@ h2 {
   border-top: 1px solid #c7c9c8;
   padding-left: 73px;
   padding-top: 25px;
+  padding-bottom: 41px;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: normal;
