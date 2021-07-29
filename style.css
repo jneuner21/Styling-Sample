@@ -1,0 +1,141 @@
+body {
+  position: absolute;
+  width: 1550px;
+  height: 967px;
+
+  background: #ffffff;
+}
+header {
+  margin-top: 101px;
+  margin-left: 260px;
+  margin-right: 791px;
+}
+
+.title {
+  font-family: "Fjalla One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.0355555px;
+  text-transform: uppercase;
+  color: #009ada;
+}
+
+h1 {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #343741;
+}
+
+.pageContainer {
+  display: flex;
+}
+
+.sideBarContainer {
+  text-align: center;
+}
+.sideBar {
+  margin-left: 220px;
+  width: 298px;
+  height: 269px;
+  list-style: none;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 66px;
+  color: #5f6369;
+}
+
+.sideBar:hover {
+  text-decoration: underline #009ada 2px;
+}
+
+#highlightedSideBar {
+  color: #ffffff;
+  background: #5f6369;
+  border-right: solid 8px #009ada;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.0919101);
+  width: 713px;
+  height: 515px;
+}
+
+h2 {
+  padding-top: 57px;
+  padding-left: 73px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #009ada;
+}
+
+.cardText {
+  padding-left: 73px;
+  padding-right: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.0311111px;
+  color: #343741;
+}
+
+.cardList {
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.0311111px;
+  color: #343741;
+}
+
+.list {
+  width: 270px;
+  height: 164px;
+  display: inline-block;
+}
+
+#listLeft {
+  padding-left: 90px;
+}
+
+#listRight {
+  padding-right: 48px;
+}
+
+.cardList::before {
+  content: "•";
+  color: #009ada;
+  border-radius: 100px;
+  display: inline-block;
+  width: 1em;
+}
+
+.download {
+  border-top: 1px solid #c7c9c8;
+  padding-left: 73px;
+  padding-top: 25px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  color: #009ada;
+}
+
+.download:hover {
+  text-decoration: underline #009ada 2px;
+}
