@@ -68,6 +68,7 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   padding-top: 57px;
   padding-left: 73px;
   font-family: "Roboto Condensed";
@@ -124,6 +125,7 @@ h2 {
 }
 
 .download {
+  width: 293px;
   border-top: 1px solid #c7c9c8;
   padding-left: 73px;
   padding-top: 25px;
